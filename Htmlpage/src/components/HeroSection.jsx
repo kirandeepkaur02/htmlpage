@@ -100,7 +100,7 @@ const HeroSection = () => {
               <p className="text-amber-600 text-sm sm:text-base">
                 Our Partners
               </p>
-              <div className="w-24 sm:w-32 h-[1px] bg-amber-600"></div>
+              <div className="w-24 sm:w-32 h-1px bg-amber-600"></div>
             </div>
 
             <div className="flex flex-wrap gap-4 mt-6 sm:mt-8">
@@ -181,5 +181,4 @@ const HeroSection = () => {
     </section>
   )
 }
-
 export default HeroSection
