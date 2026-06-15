@@ -13,12 +13,8 @@ const Index = () => {
       <ServiceSection />
       <Info />
       <TestimonialSection />
-      
-     
-      
-    {/*
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }
-export default Index
+export default Index 

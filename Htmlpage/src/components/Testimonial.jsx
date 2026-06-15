@@ -272,7 +272,5 @@ const Testimonial = () => {
     </section>
 
   );
-};
-
-
+}; 
 export default Testimonial;

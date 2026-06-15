@@ -1,6 +1,8 @@
 import React from 'react'
 import Ellipse from "../assets/Ellipse 2.png";
 import astro from "../assets/pic2.png"
+import Idea from "../assets/idea.png"
+import people from "../assets/people.png"
 
 const ServiceSection = () => {
   return (
@@ -8,7 +10,7 @@ const ServiceSection = () => {
       <div className="flex flex-col lg:flex-row">
 
     {/* Image Section */}
-    <div
+    <div 
       className="
         absolute inset-0 flex items-center justify-center 
         opacity-20 
@@ -122,7 +124,7 @@ const ServiceSection = () => {
 
         {[
           {
-            img: "/assets/idea.png",
+            img: Idea,
             title: "Idea",
             subtitle: "Creation",
           },
@@ -132,7 +134,7 @@ const ServiceSection = () => {
             subtitle: "Analysis",
           },
           {
-            img: "/assets/idea.png",
+            img: people,
             title: "Audience",
             subtitle: "Identity",
           },

@@ -1,7 +1,10 @@
 import React from 'react'
 import astronaut from "../assets/Pic1.png";
 import circle from "../assets/Ellipse 1 (1).png";
-
+import dribbble from "../assets/dribbble.png";
+import google from "../assets/google.png";
+import yahoo from "../assets/yahoo.png";
+import vector from "../assets/Vector.png";
 const HeroSection = () => {
   return (
     <section className="relative bg-gray-100 overflow-hidden">
@@ -31,7 +34,7 @@ const HeroSection = () => {
           >
             <span>High Growth</span>
             <img
-              src="assets/Vector.png"
+              src={vector}
               alt="vector"
               className="h-4 w-4"
             />
@@ -103,21 +106,21 @@ const HeroSection = () => {
               <div className="w-24 sm:w-32 h-1px bg-amber-600"></div>
             </div>
 
-            <div className="flex flex-wrap gap-4 mt-6 sm:mt-8">
+            <div className="flex flex-wrap items-center gap-4 mt-6 sm:mt-5">
               <img
-                src="assets/Frame 336.png"
-                alt="partner"
-                className="h-4 sm:h-5 mt-2"
-              />
-              <img
-                src="assets/Frame 337.png"
-                alt="partner"
-                className="h-4 sm:h-5 mt-2"
-              />
-              <img
-                src="assets/dribbble.png"
+                src={dribbble}
                 alt="dribbble"
                 className="h-4 sm:h-5 mt-2"
+              />
+              <img
+                src={google}
+                alt="google"
+                className="h-4 sm:h-12 mt-2"
+              />
+              <img
+                src={yahoo}
+                alt="yahoo"
+                className="h-4 sm:h-12 mt-2"
               />
             </div>
           </div>
