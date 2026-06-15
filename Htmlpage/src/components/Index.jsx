@@ -9,16 +9,16 @@ const Index = () => {
   return (
     <div>
       <Navbar />
-       <HeroSection />
-        <ServiceSection />
-        <Info />
-      {/*
+      <HeroSection />
+      <ServiceSection />
+      <Info />
+      <TestimonialSection />
+      
      
       
-      <TestimonialSection />
+    {/*
       <Footer /> */}
     </div>
   )
 }
-
 export default Index
