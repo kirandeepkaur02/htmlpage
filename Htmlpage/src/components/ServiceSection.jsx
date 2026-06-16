@@ -3,7 +3,7 @@ import Ellipse from "../assets/Ellipse 2.png";
 import astro from "../assets/pic2.png"
 import Idea from "../assets/idea.png"
 import people from "../assets/people.png"
-
+import search from "../assets/Search.png"
 const ServiceSection = () => {
   return (
     <div className="relative px-2 py-4 bg-white overflow-hidden">
@@ -129,7 +129,7 @@ const ServiceSection = () => {
             subtitle: "Creation",
           },
           {
-            img: "/assets/Search.png",
+            img: search,
             title: "Market",
             subtitle: "Analysis",
           },
@@ -139,7 +139,7 @@ const ServiceSection = () => {
             subtitle: "Identity",
           },
           {
-            img: "/assets/idea.png",
+            img: Idea,
             title: "Brand",
             subtitle: "Identity",
           },
