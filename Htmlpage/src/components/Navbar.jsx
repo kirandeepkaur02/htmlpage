@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+import About from "../Pages/AboutUs"
+
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,8 +10,8 @@ function Navbar() {
   const menuItems = [
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
-    { name: "Services", link: "/services" },
-    { name: "Contact Us", link: "/contact" },
+    { name: "Service", link: "/service" },
+    { name: "ContactUs", link: "/contact" },
   ];
 
   return (

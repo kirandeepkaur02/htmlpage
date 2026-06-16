@@ -8,12 +8,12 @@ import Footer from './Footer'
 const Index = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection />
       <ServiceSection />
       <Info />
       <TestimonialSection />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
